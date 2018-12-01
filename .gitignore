@@ -50,3 +50,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Output file
+*.cof
+*.sym
+*.xsym
+*.tre
+*.STA
+*.esym
+*.lst
+*/__history
+__history
