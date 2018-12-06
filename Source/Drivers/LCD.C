@@ -147,6 +147,7 @@ typedef struct
    #else
      #if defined(PIN_D0)
       #define LCD_DATA_PORT      getenv("SFR:PORTD")     //portd
+      #define set_tris_lcd(x)   set_tris_d(x)
      #else
       #define LCD_DATA_PORT      getenv("SFR:PORTB")     //portb
      #endif
